@@ -67,7 +67,8 @@ input {
 }
 #form .bdsug, #fm .bdsug {
     top: 35px
-}.qrcodeCon {
+}
+.qrcodeCon {
      text-align: center;
      position: absolute;
      bottom: 140px;
@@ -77,8 +78,6 @@ input {
 
 #qrcode {
     display: inline-block;
-    *float: left;
-    *margin-top: 4px
 }
 
 #qrcode .qrcode-item {
@@ -121,9 +120,6 @@ input {
     line-height: 22px;
     position: relative;
     top: -2px;
-    *float: right;
-    *margin-left: 0;
-    *position: static
 }
 
 #ftConw, #ftConw a {
@@ -147,4 +143,123 @@ input {
     display: inline-block;
     overflow: hidden;
     background: url(images/icons_2.png) no-repeat;
+}
+#u1 a:link, #u1 a:visited {
+    color: #666;
+    text-decoration: none
+}
+
+#u1 a:hover, #u1 a:active {
+    text-decoration: underline
+}
+
+#u1 a:active {
+    color: #00c
+}
+
+#u1 {
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 19px 0 5px;
+    padding: 0 96px 0 0
+}
+#u1 a.pf, #u1 a.pf:visited {
+    display: inline-block;
+    float: left;
+    color: #333;
+    line-height: 24px;
+    font-size: 13px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-decoration: underline
+}
+
+#u1 a.lb, #u1 a.lb:visited {
+    display: inline-block;
+    float: left;
+    color: #333;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline
+}
+
+#u1 a.bri, #u1 a.bri:visited {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px
+}
+
+#u1 a.bri.brihover {
+    display: none;
+    text-decoration: none;
+    color: #333;
+    background: 0 0;
+    border-bottom: 1px solid transparent;
+    margin-left: 19px
+}
+
+#u1 #lm a {
+    color: #00c;
+    text-decoration: underline
+}
+
+#u1 a.mnav, #u1 a.mnav:visited {
+    float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline
+}
+
+#u1 a.pf:hover, #u1 a.lb:hover, #u1 a.mnav:hover {
+    color: #00c
+}
+#form{
+    top: 20px
+}
+#lg{
+    padding-top:  100px
+}
+
+.s_ipt{
+    width: 526px;
+    height: 32px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid gainsboro;
+    outline: 0;
+    -webkit-appearance: none;
+}
+.s_btn {
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
